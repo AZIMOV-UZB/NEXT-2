@@ -36,9 +36,7 @@ const Products = ({ data, our }) => {
           </div>
         ))}
       </div>
-      <button className="border border-[#B88E2F] hover:bg-[#B88E2F] hover:text-white duration-300 text-sm text-[#B88E2F] py-3 px-11 font-semibold mx-auto w-fit flex items-center mt-[30px] mb-[30px] ">
-        Show More
-      </button>
+   
     </>
   );
 };
