@@ -22,7 +22,7 @@ const Footer = () => {
 <p className='text-[17px] mt-5 font-bold'>Privacy Policies</p>
         </div>
         <div className='w-72'>
-            <p className='text-gray-400' className='text-[17px] mt-5 font-bold' >Newsletter</p>
+            <p className='text-gray-400' >Newsletter</p>
             <div className='flex gap-2 mt-5'>
             <p className='text-gray-400'>Enter Your Email Address</p>
 <button>SUBSCRIBE</button>
