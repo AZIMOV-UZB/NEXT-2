@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { CiLocationOn } from "react-icons/ci";
+import "./header.css"
 import { RiMenu2Fill } from "react-icons/ri";
 import { BsPersonExclamation } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
@@ -17,7 +17,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto header">
       <div className=" flex items-center  gap-[69px] justify-between mt-5 ">
         <Link href={"/"}>
           <Image

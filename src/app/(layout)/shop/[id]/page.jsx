@@ -43,16 +43,7 @@ const Page = async ({ params }) => {
             </p>
           </div>
           <div className="flex gap-3 items-center">
-            {/* <div className="flex gap-1">
-              <ReactStars
-                value={data?.rating}
-                size={20}
-                color1="white"
-                color2="#FFC633"
-                edit={false}
-              />
-            </div> */}
-            <p className="text-[15px] text-[#0007]">{data?.rating}</p>
+                  <p className="text-[15px] text-[#0007]">{data?.rating}</p>
           </div>
           <hr />
           <div className="flex gap-1 items-center">
@@ -63,36 +54,22 @@ const Page = async ({ params }) => {
           <hr />
           <div className="flex flex-col gap-3">
             <p className="text-[15px] text-[#000000]">Choose color</p>
-            {/* <div className="flex  gap-4">
-              {data?.color_options?.map((color, exs) => (
-                <div key={exs}>
-                  <button
-                    className="w-[25px] border rounded-full h-[25px]"
-                    style={{ background: color }}
-                  ></button>
-                </div>
-              ))}
-            </div> */}
+           
           </div>
           <hr />
           <div className="flex justify-between mb-6">
             <div className="flex items-center justify-between rounded-full bg-[#F0F0F0] px-[10px] py-[4px] w-[40%] lg:w-[35%]">
               <button className="text-[22px]">-</button>
-              <p className="text-[18px]"></p>
+              <p className="text-[18px]">1</p>
               <button className="text-[22px]">+</button>
             </div>
-            <div className="w-[150px]">
-              <p className="text-[14px]">
-                Only <span className="text-[#0BA42D]"> 16 items</span> left!
-                Don’t miss it{" "}
-              </p>
-            </div>
+       
           </div>
           <button
             className="w-[80%] rounded-full bg-[#0BA42D] text-white h-[52px] 
-                hover:bg-gray-800 hover:text-gray-300 
-                active:bg-gray-900 active:scale-95 
-                focus:outline-none focus:ring-2 focus:ring-gray-500 
+                hover:bg-blue-600 hover:text-gray-300 
+                active:bg-blue-600 active:scale-95 
+                focus:outline-none focus:ring-2\
                 transition-all duration-300 ease-in-out flex gap-3 items-center justify-center"
           >
             <IoCartOutline className="text-[#fff]" />{" "}
