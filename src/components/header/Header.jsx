@@ -17,7 +17,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="container mx-auto header">
+    <div className="container px-4 mx-auto header">
       <div className=" flex items-center  gap-[69px] justify-between mt-5 ">
         <Link href={"/"}>
           <Image
@@ -73,10 +73,10 @@ const Header = () => {
           </div>
         </div>
         <div className="flex lg:gap-[50px] md:gap-[40px] sm:gap-[30px] gap-3">
-          <BsPersonExclamation />
-          <GoSearch />
-          <FaRegHeart />
-          <FiShoppingCart />
+          <BsPersonExclamation  className='text-2xl'/>
+          <GoSearch  className='text-2xl'/>
+          <FaRegHeart  className='text-2xl'/>
+          <FiShoppingCart  className='text-2xl'/>
         </div>
         <div onClick={toggleMenu} className="navbar__menu">
           <RiMenu2Fill />
